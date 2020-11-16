@@ -1,5 +1,5 @@
 {
-  "name": "@acme/core",
+  "name": "@domains/api",
   "version": "1.0.0",
   "license": "MIT",
   "private": true,
@@ -20,10 +20,7 @@
     "precommit": "lint-staged"
   },
   "dependencies": {
-    "ramda": "^0.26.1"
-  },
-  "devDependencies": {
-    "tslint-config-prettier": "^1.18.0"
+    "@toolbox/core": "1.0.0"
   },
   "tslint": {
     "extends": "../../tslint.json"

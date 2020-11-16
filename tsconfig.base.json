@@ -10,7 +10,8 @@
     "declarationMap": true,
     "sourceMap": true,
     "paths": {
-      "@acme/*": ["./*/src"]
+      "@domains/*": ["./domains/*/src"],
+      "@toolbox/*": ["./toolbox/*/src"]
     }
   }
 }

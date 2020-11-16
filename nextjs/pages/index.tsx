@@ -1,4 +1,4 @@
-import { doubleNumbers } from "@acme/api";
+import { doubleNumbers } from "@domains/api";
 
 const Index = () => <div>{doubleNumbers([2, 4])}</div>;
 

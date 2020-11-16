@@ -4,7 +4,8 @@
   "private": true,
   "workspaces": [
     "nextjs",
-    "packages/*"
+    "packages/domains/*",
+    "packages/toolbox/*"
   ],
   "scripts": {
     "docs": "doctoc --title '**Table of content**' README.md",
