@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "docs": "doctoc --title '**Table of content**' README.md",
-    "dev": "yarn workspace @dg/app dev"
+    "dev": "yarn workspace @dg/app dev",
+    "build": "yarn workspaces run build:package"
   },
   "devDependencies": {
     "doctoc": "~1.4.0",

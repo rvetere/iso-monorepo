@@ -4,11 +4,11 @@
   "main": "dist/index",
   "types": "dist/index",
   "scripts": {
-    "build": "yarn run clean && yarn run compile",
+    "build:package": "yarn run clean && yarn run compile",
     "clean": "rimraf -rf ./dist",
     "compile": "tsc -b .",
-    "prepublishOnly": "yarn run build",
-    "test": "yarn run build"
+    "prepublishOnly": "yarn run build:package",
+    "test": "yarn run build:package"
   },
   "peerDependencies": {
     "react": "~17.0.0"
