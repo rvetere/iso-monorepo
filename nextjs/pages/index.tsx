@@ -1,4 +1,5 @@
-import React from "react";
-import { Button } from "@nighttrax/components";
+import { doubleNumbers } from "@acme/api";
 
-export default () => <Button />;
+const Index = () => <div>{doubleNumbers([2, 4])}</div>;
+
+export default Index

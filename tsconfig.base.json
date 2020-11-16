@@ -2,20 +2,15 @@
   "compilerOptions": {
     "module": "commonjs",
     "target": "es5",
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "baseUrl": "./packages",
     "composite": true,
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "noEmitOnError": true,
-    "rootDir": ".",
-    "baseUrl": "./packages",
     "paths": {
-      "@nighttrax/*": ["./*/src"]
-    },
-  },
-
-  "exclude": [
-    "node_modules",
-    "dist"
-  ]
+      "@acme/*": ["./*/src"]
+    }
+  }
 }

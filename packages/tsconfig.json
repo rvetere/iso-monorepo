@@ -1,9 +1,7 @@
 {
-  "extends": "../../tsconfig.base.json",
-  
   "files": [],
   "references": [
-    { "path": "./components" },
-    { "path": "./foo" }
+    { "path": "./api" },
+    { "path": "./core" }
   ]
 }
