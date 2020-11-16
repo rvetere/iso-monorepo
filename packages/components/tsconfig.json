@@ -1,7 +1,18 @@
 {
-  "extends": "../../tsconfig.json",
+  "extends": "../../tsconfig.base.json",
+
   "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
     "jsx": "react",
     "esModuleInterop": true
-  }
+  },
+
+  "references": [
+    { "path": "../foo", "prepend": false }
+  ],
+
+  "include": [
+    "src/**/*"
+  ]
 }
