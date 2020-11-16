@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "npm run build:ts",
+    "build:package": "npm run build:ts",
     "build:ts": "tsc -b .",
     "clean": "rm -rf dist *.tsbuildinfo",
     "test": "jest",
