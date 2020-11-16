@@ -1,0 +1,17 @@
+{
+  "name": "iso-monorepo",
+  "description": "Template for setting up a TypeScript monorepo",
+  "private": true,
+  "workspaces": [
+    "nextjs",
+    "packages/*"
+  ],
+  "scripts": {
+    "docs": "doctoc --title '**Table of content**' README.md",
+    "dev": "yarn workspace @dg/app dev"
+  },
+  "devDependencies": {
+    "doctoc": "~1.4.0",
+    "typescript": "~4.0.0"
+  }
+}
